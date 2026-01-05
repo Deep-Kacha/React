@@ -4,11 +4,13 @@ import ClassPropes from "./ClassPropes/classPropes.jsx";
 import StateCounter from "./StateManagement/StateManagement.jsx";
 import StringStateManagement from "./StateManagement/StringStateManagement.jsx";
 import ConditionalRender from "./StateManagement/ConditionalRender.jsx";
+import ToDoList from "./ToDoList/ToDoList.jsx";
 
 function App() {
   return (
     <>
-    <ConditionalRender></ConditionalRender>
+    <ToDoList></ToDoList>
+    {/* <ConditionalRender></ConditionalRender>
         <br/><br/><br/>
       <StateCounter></StateCounter>
       <br/> <br/> <br/>
@@ -38,7 +40,7 @@ function App() {
         email="em@gm.in"
         button="Give Me Money"
         imgsrc="src\assets\loop_universe.77-20250731-0001.jpg"
-      />
+      /> */}
 
       {/* Hello World!
     <Firstclass />

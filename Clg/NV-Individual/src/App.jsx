@@ -5,11 +5,13 @@ import StateCounter from "./StateManagement/StateManagement.jsx";
 import StringStateManagement from "./StateManagement/StringStateManagement.jsx";
 import ConditionalRender from "./StateManagement/ConditionalRender.jsx";
 import ToDoList from "./ToDoList/ToDoList.jsx";
+import ContactBook from "./ContactBook/ContactBook.jsx";
 
 function App() {
   return (
     <>
-    <ToDoList></ToDoList>
+    <ContactBook></ContactBook>
+    {/* <ToDoList></ToDoList> */}
     {/* <ConditionalRender></ConditionalRender>
         <br/><br/><br/>
       <StateCounter></StateCounter>

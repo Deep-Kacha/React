@@ -6,11 +6,17 @@ import StringStateManagement from "./StateManagement/StringStateManagement.jsx";
 import ConditionalRender from "./StateManagement/ConditionalRender.jsx";
 import ToDoList from "./ToDoList/ToDoList.jsx";
 import ContactBook from "./ContactBook/ContactBook.jsx";
+import Calculater from './Calculater/Calculater.jsx';
+import Multipart from "./MultiPart/MultiPart.jsx";
+import StudDemo from "./MultiPart/StudDemo.jsx";
 
 function App() {
   return (
     <>
-    <ContactBook></ContactBook>
+    <StudDemo></StudDemo>
+    {/* <Multipart></Multipart> */}
+    {/* <Calculater></Calculater> */}
+    {/* <ContactBook></ContactBook> */}
     {/* <ToDoList></ToDoList> */}
     {/* <ConditionalRender></ConditionalRender>
         <br/><br/><br/>

@@ -30,7 +30,7 @@ class MultiPart extends Component {
     return (
       <div>
         <div style={{ display: index === 0 ? "" : "none" }}>
-          <h1>Part1</h1>
+          <h1>Part1</h1> 
           <input
             type="text"
             value={t1}

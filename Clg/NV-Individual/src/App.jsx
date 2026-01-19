@@ -9,13 +9,15 @@ import ContactBook from "./ContactBook/ContactBook.jsx";
 import Calculater from './Calculater/Calculater.jsx';
 import Multipart from "./MultiPart/MultiPart.jsx";
 import StudDemo from "./MultiPart/StudDemo.jsx";
+import Display123 from "./Practice/p1.jsx";
 
 function App() {
   return (
     <>
-    <StudDemo></StudDemo>
+    <Display123></Display123>
+    {/* <StudDemo></StudDemo> */}
     {/* <Multipart></Multipart> */}
-    {/* <Calculater></Calculater> */}
+    {/* <Calculater></Calculater>  */}
     {/* <ContactBook></ContactBook> */}
     {/* <ToDoList></ToDoList> */}
     {/* <ConditionalRender></ConditionalRender>

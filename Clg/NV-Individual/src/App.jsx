@@ -10,11 +10,15 @@ import Calculater from './Calculater/Calculater.jsx';
 import Multipart from "./MultiPart/MultiPart.jsx";
 import StudDemo from "./MultiPart/StudDemo.jsx";
 import Display123 from "./Practice/p1.jsx";
+import HookEx1 from "./HooksDemo/Hook1.jsx";
+import HookEx2 from "./HooksDemo/Hook2.jsx";
 
 function App() {
   return (
     <>
-    <Display123></Display123>
+    <HookEx2></HookEx2>
+    {/* <HookEx1></HookEx1> */}
+    {/* <Display123></Display123> */}
     {/* <StudDemo></StudDemo> */}
     {/* <Multipart></Multipart> */}
     {/* <Calculater></Calculater>  */}

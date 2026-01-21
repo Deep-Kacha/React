@@ -12,11 +12,15 @@ import StudDemo from "./MultiPart/StudDemo.jsx";
 import Display123 from "./Practice/p1.jsx";
 import HookEx1 from "./HooksDemo/Hook1.jsx";
 import HookEx2 from "./HooksDemo/Hook2.jsx";
+import UseStateEx from "./HooksDemo/Hook3-array.jsx";
+import ToDoListFun from "./ToDoList/TodoList-Fun.jsx";
 
 function App() {
   return (
     <>
-    <HookEx2></HookEx2>
+    <ToDoListFun></ToDoListFun>
+    <UseStateEx></UseStateEx>
+    {/* <HookEx2></HookEx2> */}
     {/* <HookEx1></HookEx1> */}
     {/* <Display123></Display123> */}
     {/* <StudDemo></StudDemo> */}

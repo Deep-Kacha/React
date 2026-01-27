@@ -64,6 +64,8 @@ class ContactBook extends Component {
         const { contacts, fname, lname, phone } = this.state;
         return (
             <>
+            <div align="center">
+                <h1>Contact Book</h1>
                 <input
                     type="text"
                     value={fname}
@@ -85,6 +87,7 @@ class ContactBook extends Component {
                     onChange={this.handlePhoneChange}
                 />
                 <br />
+                <br />
                 <button onClick={this.additionContacts}>Add Contact</button>
                 <br />
                 <ul>
@@ -99,6 +102,7 @@ class ContactBook extends Component {
                         </li>
                     ))}
                 </ul>
+            </div>
             </>
         );
     }

@@ -51,6 +51,8 @@ class ToDoList extends Component {
 
         return (
             <>
+            <div align = "center">
+                <h2>To-Do List</h2>
                 <input
                     type="text"
                     value={inputVal}
@@ -72,6 +74,7 @@ class ToDoList extends Component {
                         </li>
                     ))}
                 </ul>
+            </div>
             </>
         );
     }

@@ -15,11 +15,13 @@ import HookEx2 from "./HooksDemo/Hook2.jsx";
 import UseStateEx from "./HooksDemo/Hook3-array.jsx";
 import ToDoListFun from "./ToDoList/TodoList-Fun.jsx";
 import ContactBookFun from "./ContactBook/ContactBook-Fun.jsx";
+import Cart from "./CART/cart.jsx";
 
 function App() {
   return (
     <>
-    <ContactBookFun></ContactBookFun>
+    <Cart></Cart>
+    {/* <ContactBookFun></ContactBookFun> */}
     {/* <ToDoListFun></ToDoListFun> */}
     {/* <UseStateEx></UseStateEx> */}
     {/* <HookEx2></HookEx2> */}

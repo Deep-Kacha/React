@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 export default function CartTheme() {
   const [cartItems, setCartItems] = useState([]);
-  const [theme, setTheme] = useState("light");
+  // const [theme, setTheme] = useState("light");
   const items = [
     { id: "item1", name: "Coffee", price: 2.5 },
     { id: "item2", name: "Tea", price: 2.0 },
